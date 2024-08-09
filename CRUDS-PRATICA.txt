@@ -1,0 +1,159 @@
+CRUDS USANDO PHP - PROJETOS PARA PRATICAR
+
+1. SISTEMA DE GERENCIAMENTO DE TAREFAS
+Descrição: Crie uma aplicação para gerenciar tarefas do dia a dia. Permita aos usuários adicionar, visualizar, editar e excluir tarefas.
+
+Funcionalidades:
+
+Create: Adicionar novas tarefas.
+Read: Listar todas as tarefas com status (pendente, em progresso, concluída).
+Update: Atualizar o status ou detalhes de uma tarefa.
+Delete: Remover tarefas completadas ou não necessárias.
+
+
+
+2. CATÁLOGO DE LIVROS
+Descrição: Desenvolva um sistema para gerenciar um catálogo de livros. Inclua informações como título, autor, ano de publicação e gênero.
+
+Funcionalidades:
+
+Create: Adicionar novos livros ao catálogo.
+Read: Visualizar todos os livros e suas informações.
+Update: Editar detalhes dos livros.
+Delete: Remover livros do catálogo.
+
+
+3. SISTEMA DE CADASTRO DE USUÁRIOS
+Descrição: Crie um sistema para gerenciar usuários, incluindo funções básicas como cadastro, login, perfil e gerenciamento de contas.
+
+Funcionalidades:
+
+Create: Registrar novos usuários.
+Read: Visualizar perfil e lista de usuários.
+Update: Atualizar informações do perfil.
+Delete: Deletar contas de usuários.
+Recursos: Autenticação de usuários, senhas criptografadas, e gerenciamento de permissões.
+
+
+4. AGENDA DE CONTATOS
+Descrição: Desenvolva uma agenda para armazenar e gerenciar informações de contato, como nome, telefone e e-mail.
+
+Funcionalidades:
+
+Create: Adicionar novos contatos.
+Read: Listar todos os contatos e informações detalhadas.
+Update: Editar informações dos contatos.
+Delete: Remover contatos da agenda.
+Recursos: Busca e filtros por nome ou telefone.
+
+5. SISTEMA DE INVENTÁRIO
+Descrição: Crie um sistema para gerenciar inventário de produtos, incluindo nome, descrição, quantidade e preço.
+
+Funcionalidades:
+
+Create: Adicionar novos produtos ao inventário.
+Read: Visualizar todos os produtos com detalhes.
+Update: Atualizar detalhes dos produtos, como quantidade e preço.
+Delete: Remover produtos que não estão mais disponíveis.
+Recursos: Relatórios de estoque e alertas de baixo estoque.
+
+6. GERENCIAMENTO DE EVENTOS
+
+Entendi! Aqui estão oito projetos de CRUD usando PHP que você pode desenvolver para praticar e aprimorar suas habilidades:
+
+1. Sistema de Gerenciamento de Tarefas
+Descrição: Crie uma aplicação para gerenciar tarefas do dia a dia. Permita aos usuários adicionar, visualizar, editar e excluir tarefas.
+
+Funcionalidades:
+
+Create: Adicionar novas tarefas.
+Read: Listar todas as tarefas com status (pendente, em progresso, concluída).
+Update: Atualizar o status ou detalhes de uma tarefa.
+Delete: Remover tarefas completadas ou não necessárias.
+Recursos: Interface amigável, categorização de tarefas, e filtros.
+
+2. Catálogo de Livros
+Descrição: Desenvolva um sistema para gerenciar um catálogo de livros. Inclua informações como título, autor, ano de publicação e gênero.
+
+Funcionalidades:
+
+Create: Adicionar novos livros ao catálogo.
+Read: Visualizar todos os livros e suas informações.
+Update: Editar detalhes dos livros.
+Delete: Remover livros do catálogo.
+Recursos: Pesquisa por título e autor, filtros por ano e gênero.
+
+3. Sistema de Cadastro de Usuários
+Descrição: Crie um sistema para gerenciar usuários, incluindo funções básicas como cadastro, login, perfil e gerenciamento de contas.
+
+Funcionalidades:
+
+Create: Registrar novos usuários.
+Read: Visualizar perfil e lista de usuários.
+Update: Atualizar informações do perfil.
+Delete: Deletar contas de usuários.
+Recursos: Autenticação de usuários, senhas criptografadas, e gerenciamento de permissões.
+
+4. Agenda de Contatos
+Descrição: Desenvolva uma agenda para armazenar e gerenciar informações de contato, como nome, telefone e e-mail.
+
+Funcionalidades:
+
+Create: Adicionar novos contatos.
+Read: Listar todos os contatos e informações detalhadas.
+Update: Editar informações dos contatos.
+Delete: Remover contatos da agenda.
+Recursos: Busca e filtros por nome ou telefone.
+
+5. Sistema de Inventário
+Descrição: Crie um sistema para gerenciar inventário de produtos, incluindo nome, descrição, quantidade e preço.
+
+Funcionalidades:
+
+Create: Adicionar novos produtos ao inventário.
+Read: Visualizar todos os produtos com detalhes.
+Update: Atualizar detalhes dos produtos, como quantidade e preço.
+Delete: Remover produtos que não estão mais disponíveis.
+Recursos: Relatórios de estoque e alertas de baixo estoque.
+
+6. Gerenciamento de Eventos
+Descrição: Desenvolva um sistema para gerenciar eventos, como conferências ou reuniões. Inclua funcionalidades para cadastrar eventos, visualizar detalhes e gerenciar inscrições.
+
+Funcionalidades:
+
+Create: Adicionar novos eventos.
+Read: Listar eventos futuros e passados.
+Update: Editar detalhes do evento.
+Delete: Cancelamento de eventos.
+Recursos: Inscrições para eventos e envio de lembretes.
+
+7. BLOG COM POSTS
+Descrição: Crie um sistema de blog onde os usuários podem criar, editar, visualizar e excluir posts.
+
+Funcionalidades:
+
+Create: Adicionar novos posts ao blog.
+Read: Visualizar todos os posts e seus detalhes.
+Update: Editar o conteúdo dos posts.
+Delete: Remover posts antigos ou irrelevantes.
+Recursos: Comentários em posts e categorias.
+
+
+8. SISTEMA DE RESERVA DE QUARTOS
+Descrição: Desenvolva um sistema para reservar quartos em um hotel ou pousada. Inclua a funcionalidade de verificar disponibilidade, fazer reservas e cancelar reservas.
+
+Funcionalidades:
+
+Create: Adicionar novas reservas.
+Read: Visualizar reservas existentes e disponibilidade de quartos.
+Update: Alterar detalhes de reservas ou informações do cliente.
+Delete: Cancelamento de reservas.
+Recursos: Interface para verificar disponibilidade em tempo real e relatórios de reservas.
+
+Recursos e Considerações Gerais
+Para todos esses projetos, considere os seguintes aspectos:
+
+Banco de Dados: Utilize MySQL ou outro banco de dados para armazenar informações.
+Segurança: Implemente práticas de segurança, como validação de entrada e criptografia de senhas.
+Interface de Usuário: Desenvolva uma interface amigável usando HTML, CSS e JavaScript.
+Testes: Realize testes para garantir que todas as funcionalidades estejam funcionando corretamente e sem erros.

@@ -1,0 +1,59 @@
+/* Reseta margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estiliza o formulário */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+/* Estiliza os rótulos dos campos de entrada */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estiliza o botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estiliza o botão de envio ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

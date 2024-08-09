@@ -1,0 +1,69 @@
+/* Estilo Geral da Página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do Formulário */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo do Rótulo */
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+/* Estilo do Campo de Entrada */
+form input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    border-color: #1E90FF;
+    outline: none;
+}
+
+/* Estilo do Botão de Envio */
+form input[type="submit"] {
+    background-color: #1E90FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1C86EE;
+    transform: scale(1.02);
+}
