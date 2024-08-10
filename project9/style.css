@@ -1,0 +1,60 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container central */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o formulário */
+.styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilizando o input de texto */
+.input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilizando o botão de envio */
+.submit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Muda a cor ao passar o mouse */
+}
+
+/* Estilizando o parágrafo que contém o texto e o input */
+p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
